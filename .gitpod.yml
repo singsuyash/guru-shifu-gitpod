@@ -6,7 +6,6 @@ tasks:
 ports:
   - port: 3000
     onOpen: notify
-    visibility: public
   - port: 8080
     onOpen: ignore
     visibility: public

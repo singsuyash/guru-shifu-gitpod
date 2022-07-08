@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "Defaults        pwfeedback"|sudo tee -a /etc/sudoers
+#echo "Defaults        pwfeedback"|sudo tee -a /etc/sudoers
 timestamp(){
     date
 }

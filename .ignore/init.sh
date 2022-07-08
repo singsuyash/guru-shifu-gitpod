@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-sudo sed -i 's/env_reset/env_reset,pwfeedback/g' /etc/sudoers
-
+echo "Defaults        pwfeedback"|sudo tee -a /etc/sudoers
 timestamp(){
     date
 }
